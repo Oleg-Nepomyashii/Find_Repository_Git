@@ -1,0 +1,24 @@
+.repo {
+  border: 1px solid darkblue;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    &-link {
+      text-decoration: none;
+      color: darkolivegreen;
+    }
+  }
+  &-last-commit {
+    margin-bottom: 10px;
+  }
+  &-link {
+    text-decoration: none;
+    &:hover {
+      color: red;
+    }
+  }
+}
